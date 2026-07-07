@@ -52,7 +52,7 @@ export default function WhyUs() {
         <div className="hidden md:block w-full overflow-hidden border border-white/5 rounded-2xl bg-bg-surface/50 backdrop-blur">
           <div className="grid grid-cols-3 bg-[#0e0e14] py-6 px-8 border-b border-white/5 font-serif text-lg font-bold text-text-primary">
             <div>Risk Area & Service</div>
-            <div className="text-text-muted/70">Typical Freelancer</div>
+            <div className="text-text-muted/70">Other Freelancer</div>
             <div className="text-accent-gold">Clinovate (Us)</div>
           </div>
 
@@ -95,7 +95,7 @@ export default function WhyUs() {
                 <div className="space-y-3">
                   <div className="bg-red-500/5 border border-red-500/10 rounded-lg p-3">
                     <div className="flex items-center gap-1.5 text-red-500 font-semibold text-xs uppercase mb-1">
-                      <X className="w-3.5 h-3.5" /> Typical Freelancer
+                      <X className="w-3.5 h-3.5" /> Other Freelancer
                     </div>
                     <p className="text-xs text-text-muted">
                       {row.freelancer}
