@@ -2,6 +2,7 @@ import React from 'react';
 import Container from './Container';
 import { Shield, ArrowUp } from 'lucide-react';
 import Badge from '../ui/Badge';
+import ZeroPointLogo from '../ui/ZeroPointLogo';
 
 export default function Footer({ onNavigate }) {
   const currentYear = new Date().getFullYear();
@@ -49,12 +50,10 @@ export default function Footer({ onNavigate }) {
             <a 
               href="#" 
               onClick={(e) => { e.preventDefault(); handleShortcutClick(e, '#'); }} 
-              className="flex items-center gap-2 mb-4"
+              className="inline-block mb-4"
+              aria-label="ZEROPOINT"
             >
-              <Shield className="text-accent-gold w-6 h-6" />
-              <span className="font-serif text-2xl font-bold tracking-tight text-text-primary">
-                ZERO<span className="text-accent-gold">POINT</span>
-              </span>
+              <ZeroPointLogo />
             </a>
             <p className="text-sm text-text-muted max-w-sm mb-6 leading-relaxed">
               We design, build, and secure premium digital solutions for local clinics, cafes, and service businesses.

@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Button from '../ui/Button';
+import ZeroPointLogo from '../ui/ZeroPointLogo';
 import Container from './Container';
-import { Menu, X, Shield } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Navbar({ onNavigate }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -72,14 +73,8 @@ export default function Navbar({ onNavigate }) {
         <Container>
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <a href="#" onClick={handleLogoClick} className="flex items-center gap-2 group">
-              <div className="relative">
-                <Shield className="text-accent-gold w-6 h-6 transition-transform duration-300 group-hover:scale-110" />
-                <div className="absolute inset-0 bg-accent-gold/25 blur-md rounded-full -z-10 group-hover:bg-accent-gold/40 transition-colors" />
-              </div>
-              <span className="font-serif text-2xl font-bold tracking-tight text-text-primary">
-                ZERO<span className="text-accent-gold">POINT</span>
-              </span>
+            <a href="#" onClick={handleLogoClick} aria-label="ZEROPOINT">
+              <ZeroPointLogo />
             </a>
 
             {/* Desktop Navigation Links */}
