@@ -53,7 +53,7 @@ export default function Footer({ onNavigate }) {
             >
               <Shield className="text-accent-gold w-6 h-6" />
               <span className="font-serif text-2xl font-bold tracking-tight text-text-primary">
-                Clino<span className="text-accent-gold">vate</span>
+                ZERO<span className="text-accent-gold">POINT</span>
               </span>
             </a>
             <p className="text-sm text-text-muted max-w-sm mb-6 leading-relaxed">
@@ -119,7 +119,7 @@ export default function Footer({ onNavigate }) {
               West Bengal, India
             </p>
             <p className="text-sm text-text-muted mb-4 font-sans">
-              contact@clinovate.agency
+              contact@zeropoint.agency
             </p>
             <div className="flex gap-3">
               {/* GitHub Link */}
@@ -149,7 +149,7 @@ export default function Footer({ onNavigate }) {
         {/* Bottom copyright details */}
         <div className="flex flex-col sm:flex-row justify-between items-center border-t border-white/5 pt-8 gap-4">
           <div className="text-xs text-text-muted font-sans text-center sm:text-left">
-            <span>&copy; {currentYear} Clinovate. All rights reserved. </span>
+            <span>&copy; {currentYear} ZEROPOINT. All rights reserved. </span>
             <span className="mx-2">|</span>
             <a 
               href="#" 

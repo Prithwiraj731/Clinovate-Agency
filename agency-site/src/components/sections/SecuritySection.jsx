@@ -67,7 +67,7 @@ export default function SecuritySection() {
                 <h3 className="text-2xl font-bold font-serif text-text-primary">Site Shield Philosophy</h3>
               </div>
               <p className="text-sm text-text-muted leading-relaxed mb-6 font-sans">
-                Most web agencies build sites with default templates and ignore database safety rules, vulnerable login gateways, and frame headers. Clinovate hardens the hosting edge, the browser interface, and database layers so your practice remains fully compliant and protected against attacks.
+                Most web agencies build sites with default templates and ignore database safety rules, vulnerable login gateways, and frame headers. ZEROPOINT hardens the hosting edge, the browser interface, and database layers so your practice remains fully compliant and protected against attacks.
               </p>
               
               <div className="flex items-center gap-2 p-3 bg-accent-emerald/5 border border-accent-emerald/10 rounded-lg">

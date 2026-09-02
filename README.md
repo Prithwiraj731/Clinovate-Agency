@@ -1,6 +1,6 @@
-# Clinovate — Premium Digital Agency Website
+# ZEROPOINT — Premium Digital Agency Website
 
-Clinovate is a state-of-the-art marketing and digital development agency platform designed with a high-end, responsive design system. The site showcases custom web development, local marketing, and digital security hardening services.
+ZEROPOINT is a state-of-the-art marketing and digital development agency platform designed with a high-end, responsive design system. The site showcases custom web development, local marketing, and digital security hardening services.
 
 Live Url: **[https://clinovate-agency-alpha.vercel.app/](https://clinovate-agency-alpha.vercel.app/)**
 

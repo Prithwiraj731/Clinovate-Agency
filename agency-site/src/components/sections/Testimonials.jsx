@@ -14,7 +14,7 @@ export default function Testimonials() {
 
       <Container>
         <SectionHeading
-          title="Your success story. Built by Clinovate."
+          title="Your success story. Built by ZEROPOINT."
           subtitle="Testimonials"
           description="We are actively scaling clinic partners across the region. Read about our Partner Program opportunity below."
         />
@@ -30,7 +30,7 @@ export default function Testimonials() {
               </div>
 
               <Badge variant="gold" className="mb-4 block max-w-fit mx-auto">
-                Clinovate Clinical Partner Program
+                ZEROPOINT Partner Program
               </Badge>
 
               <h3 className="text-3xl md:text-4xl font-bold font-serif text-text-primary tracking-tight mb-4">

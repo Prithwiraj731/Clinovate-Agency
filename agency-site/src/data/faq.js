@@ -4,7 +4,7 @@ export const faqs = [
     answer: "A standard site build (Starter package) takes between 2 to 3 weeks. A more comprehensive deployment like the Growth or Premium tier, including AI integrations and review automation pipelines, takes about 4 to 6 weeks from kick-off to launch."
   },
   {
-    question: "Why does Clinovate focus so heavily on security?",
+    question: "Why does ZEROPOINT focus so heavily on security?",
     answer: "Most web developers build a site and hand it off without configuring databases, inputs, or security headers properly. For service businesses, and clinics in particular, patient records and client trust are everything. If your site gets hacked, you lose trust, listings rank, and customer databases are compromised. We configure Row Level Security, Content Security Policies, and edge-level firewalls on day one."
   },
   {

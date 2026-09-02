@@ -44,7 +44,7 @@ export default function WhyUs() {
       <Container>
         <SectionHeading
           title="The agency upgrade your practice deserves."
-          subtitle="Why Clinovate"
+          subtitle="Why ZEROPOINT"
           description="Most freelancers pitch code. We deliver secure, hardened infrastructure that converts visitors and automates patient intake."
         />
 
@@ -53,7 +53,7 @@ export default function WhyUs() {
           <div className="grid grid-cols-3 bg-[#0e0e14] py-6 px-8 border-b border-white/5 font-serif text-lg font-bold text-text-primary">
             <div>Risk Area & Service</div>
             <div className="text-text-muted/70">Other Freelancer</div>
-            <div className="text-accent-gold">Clinovate (Us)</div>
+            <div className="text-accent-gold">ZEROPOINT (Us)</div>
           </div>
 
           <div className="divide-y divide-white/5">
@@ -104,7 +104,7 @@ export default function WhyUs() {
 
                   <div className="bg-accent-emerald/5 border border-accent-emerald/10 rounded-lg p-3">
                     <div className="flex items-center gap-1.5 text-accent-emerald font-semibold text-xs uppercase mb-1">
-                      <Check className="w-3.5 h-3.5" /> Clinovate (Us)
+                      <Check className="w-3.5 h-3.5" /> ZEROPOINT (Us)
                     </div>
                     <p className="text-xs text-text-primary font-medium">
                       {row.us}

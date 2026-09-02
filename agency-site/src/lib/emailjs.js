@@ -27,7 +27,7 @@ export const sendEmail = async (formData) => {
           email: formData.from_email,
           "Business Type": formData.business_type,
           message: formData.message,
-          _subject: "New Clinovate Project Inquiry"
+          _subject: "New ZEROPOINT Project Inquiry"
         })
       });
       

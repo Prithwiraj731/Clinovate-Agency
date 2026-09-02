@@ -112,7 +112,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-sm font-serif font-bold text-text-primary mb-1">Direct Inquiries</h4>
-                  <p className="text-sm text-text-muted font-sans">contact@clinovate.agency</p>
+                  <p className="text-sm text-text-muted font-sans">contact@zeropoint.agency</p>
                 </div>
               </div>
 
@@ -162,7 +162,7 @@ export default function Contact() {
 
                 {/* WhatsApp Click-to-Chat */}
                 <Button 
-                  onClick={() => window.open('https://wa.me/919832199064?text=Hi%20Clinovate%2C%20I%20want%20to%20audit%20my%20website%20security.', '_blank')}
+                  onClick={() => window.open('https://wa.me/919832199064?text=Hi%20ZEROPOINT%2C%20I%20want%20to%20audit%20my%20website%20security.', '_blank')}
                   variant="secondary" 
                   magnetic={true} 
                   className="w-full text-xs py-3 gap-2 border-green-500/30 text-green-400 hover:bg-green-500/10"

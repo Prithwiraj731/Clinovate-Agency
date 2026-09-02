@@ -78,7 +78,7 @@ export default function Navbar({ onNavigate }) {
                 <div className="absolute inset-0 bg-accent-gold/25 blur-md rounded-full -z-10 group-hover:bg-accent-gold/40 transition-colors" />
               </div>
               <span className="font-serif text-2xl font-bold tracking-tight text-text-primary">
-                Clino<span className="text-accent-gold">vate</span>
+                ZERO<span className="text-accent-gold">POINT</span>
               </span>
             </a>
 

@@ -31,7 +31,7 @@ export default function TermsOfService({ onNavigate }) {
             Terms of Service
           </h1>
           <p className="text-sm text-text-muted font-sans">
-            Last Updated: July 2026 | Clinovate Digital Agency Framework
+            Last Updated: July 2026 | ZEROPOINT Digital Agency Framework
           </p>
         </div>
 
@@ -43,7 +43,7 @@ export default function TermsOfService({ onNavigate }) {
               <ClipboardList className="w-4.5 h-4.5 text-accent-gold" /> 1. Acceptance of Conditions
             </h3>
             <p>
-              By accessing this website, submitting lead requests, or using our visual security analyzers, you agree to comply with these Terms of Service. These terms outline the relationship between Clinovate and our clinic/business partners.
+              By accessing this website, submitting lead requests, or using our visual security analyzers, you agree to comply with these Terms of Service. These terms outline the relationship between ZEROPOINT and our clinic/business partners.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export default function TermsOfService({ onNavigate }) {
               <Terminal className="w-4.5 h-4.5 text-accent-gold" /> 2. Scope of Architecture & Services
             </h3>
             <p>
-              Clinovate provides custom React development, WordPress build optimization, performance marketing, database configurations, and n8n/Gemini/Vapi AI automation setups. Specific project scopes are governed under separately signed Project Contracts, which detail payments, delivery phases, and timelines.
+              ZEROPOINT provides custom React development, WordPress build optimization, performance marketing, database configurations, and n8n/Gemini/Vapi AI automation setups. Specific project scopes are governed under separately signed Project Contracts, which detail payments, delivery phases, and timelines.
             </p>
           </div>
 

@@ -31,7 +31,7 @@ export default function PrivacyPolicy({ onNavigate }) {
             Privacy Policy
           </h1>
           <p className="text-sm text-text-muted font-sans">
-            Last Updated: July 2026 | Clinovate Digital Architecture Hardening
+            Last Updated: July 2026 | ZEROPOINT Digital Architecture Hardening
           </p>
         </div>
 
@@ -43,7 +43,7 @@ export default function PrivacyPolicy({ onNavigate }) {
               <Eye className="w-4.5 h-4.5 text-accent-gold" /> 1. Overview
             </h3>
             <p>
-              At Clinovate, we build secure systems and treat data protection as a fundamental technical requirement, not an afterthought. This Privacy Policy details how we collect, store, and shield parameters gathered via our marketing website, instant security scanners, and booking workflows.
+              At ZEROPOINT, we build secure systems and treat data protection as a fundamental technical requirement, not an afterthought. This Privacy Policy details how we collect, store, and shield parameters gathered via our marketing website, instant security scanners, and booking workflows.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export default function PrivacyPolicy({ onNavigate }) {
               <Lock className="w-4.5 h-4.5 text-accent-gold" /> 4. Data Retention & Transfers
             </h3>
             <p>
-              Clinovate retains client parameters only as long as necessary to complete project contracts or coordinate consultation audits. We do not sell, rent, or lease leads to third-party marketing companies. If you decide to transition your operations, we transfer 100% database ownership and credentials directly to you.
+              ZEROPOINT retains client parameters only as long as necessary to complete project contracts or coordinate consultation audits. We do not sell, rent, or lease leads to third-party marketing companies. If you decide to transition your operations, we transfer 100% database ownership and credentials directly to you.
             </p>
           </div>
 
@@ -87,7 +87,7 @@ export default function PrivacyPolicy({ onNavigate }) {
               <FileText className="w-4.5 h-4.5 text-accent-gold" /> 5. Technical Rights
             </h3>
             <p>
-              You have the right to request deletion of your scanned domain records or contact entries at any time. To purge your files from our staging databases, contact us at <strong>contact@clinovate.agency</strong>.
+              You have the right to request deletion of your scanned domain records or contact entries at any time. To purge your files from our staging databases, contact us at <strong>contact@zeropoint.agency</strong>.
             </p>
           </div>
 
