@@ -2,7 +2,7 @@
 
 ZEROPOINT is a state-of-the-art marketing and digital development agency platform designed with a high-end, responsive design system. The site showcases custom web development, local marketing, and digital security hardening services.
 
-Live Url: **[https://zeropoint.vercel.app/](https://zeropoint.vercel.app/)**
+Live Url: **[https://zeropoint-security.vercel.app/](https://zeropoint-security.vercel.app/)**
 
 ---
 
