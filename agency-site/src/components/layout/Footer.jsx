@@ -115,11 +115,14 @@ export default function Footer({ onNavigate }) {
               Connect
             </h5>
             <p className="text-sm text-text-muted mb-2 font-sans">
-              West Bengal, India
+              Barasat, West Bengal, India
             </p>
-            <p className="text-sm text-text-muted mb-4 font-sans">
-              contact@zeropoint.agency
-            </p>
+            <a 
+              href="mailto:prithwi1016@gmail.com"
+              className="text-sm text-text-muted hover:text-accent-gold transition-colors mb-4 block font-sans"
+            >
+              prithwi1016@gmail.com
+            </a>
             <div className="flex gap-3">
               {/* GitHub Link */}
               <a 

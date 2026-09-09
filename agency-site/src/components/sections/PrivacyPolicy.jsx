@@ -87,7 +87,7 @@ export default function PrivacyPolicy({ onNavigate }) {
               <FileText className="w-4.5 h-4.5 text-accent-gold" /> 5. Technical Rights
             </h3>
             <p>
-              You have the right to request deletion of your scanned domain records or contact entries at any time. To purge your files from my staging databases, contact me at <strong>contact@zeropoint.agency</strong>.
+              You have the right to request deletion of your scanned domain records or contact entries at any time. To purge your files from my staging databases, contact me at <a href="mailto:prithwi1016@gmail.com" className="text-accent-gold underline"><strong>prithwi1016@gmail.com</strong></a>.
             </p>
           </div>
 

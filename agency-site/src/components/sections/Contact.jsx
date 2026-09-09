@@ -112,7 +112,12 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-sm font-display font-bold text-text-primary mb-1">Direct Inquiries</h4>
-                  <p className="text-sm text-text-muted font-sans break-all">contact@zeropoint.agency</p>
+                  <a 
+                    href="mailto:prithwi1016@gmail.com"
+                    className="text-sm text-text-muted hover:text-accent-gold transition-colors font-sans break-all"
+                  >
+                    prithwi1016@gmail.com
+                  </a>
                 </div>
               </div>
 
@@ -122,7 +127,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-sm font-display font-bold text-text-primary mb-1">HQ Location</h4>
-                  <p className="text-sm text-text-muted font-sans">West Bengal, India</p>
+                  <p className="text-sm text-text-muted font-sans">Barasat, West Bengal, India</p>
                 </div>
               </div>
             </div>
