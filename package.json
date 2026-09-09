@@ -1,5 +1,5 @@
 {
-  "name": "zeropoint-agency-root",
+  "name": "client-services-platform",
   "private": true,
   "scripts": {
     "build": "cd agency-site && npm install && npm run build",

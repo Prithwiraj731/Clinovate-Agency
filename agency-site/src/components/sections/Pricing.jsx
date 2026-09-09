@@ -16,10 +16,10 @@ export default function Pricing() {
         <SectionHeading
           title="Predictable packaging. Premium results."
           subtitle="Packages & Pricing"
-          description="Transparent service scopes tailored to your business growth. We help you choose the right tier, secure your operations, and automate bookings."
+          description="Transparent service scopes tailored to your business growth. I help you choose the right tier, secure your operations, and automate bookings."
         />
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch mt-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 items-stretch mt-10 sm:mt-12">
           {pricingTiers.map((tier, idx) => {
             const isPopular = tier.popular;
             
@@ -27,8 +27,8 @@ export default function Pricing() {
               <div className="h-full flex flex-col justify-between">
                 <div>
                   {/* Top indicators */}
-                  <div className="flex justify-between items-center mb-6">
-                    <span className="text-xl font-serif font-bold text-text-primary">
+                  <div className="flex justify-between items-center mb-5 sm:mb-6">
+                    <span className="text-xl font-display font-bold text-text-primary">
                       {tier.name}
                     </span>
                     {isPopular && (
@@ -38,7 +38,7 @@ export default function Pricing() {
 
                   {/* Pricing Tag */}
                   <div className="mb-6">
-                    <span className="text-4xl font-serif font-bold text-text-primary">
+                    <span className="text-3xl sm:text-4xl font-display font-bold text-text-primary">
                       {tier.price}
                     </span>
                     <span className="block text-xs uppercase tracking-wider text-text-muted mt-1 font-mono">

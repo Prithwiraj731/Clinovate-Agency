@@ -50,47 +50,47 @@ export default function CaseStudies() {
         <SectionHeading
           title="Proven in practice. Tried and tested."
           subtitle="Case Studies & Demos"
-          description="We build working automation systems, not just static layouts. Look at our recent deployments and try the live receptionist simulator below."
+          description="I build working automation systems, not just static layouts. Look at my recent deployments and try the live receptionist simulator below."
         />
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-stretch">
           
           {/* Left Side: Case Study 1 (Dental Clinic - Voice AI) */}
           <div className="lg:col-span-5 flex">
-            <Card className="w-full flex flex-col justify-between" hoverBorder={true}>
+            <Card className="w-full flex flex-col justify-between p-6 sm:p-8" hoverBorder={true}>
               <div>
-                <div className="flex justify-between items-start mb-6">
-                  <div className="p-3 rounded-lg bg-accent-gold/10 text-accent-gold">
-                    <PhoneCall className="w-6 h-6" />
+                <div className="flex justify-between items-start mb-5 sm:mb-6">
+                  <div className="p-3 rounded-xl bg-accent-gold/10 text-accent-gold border border-accent-gold/20 shadow-[0_0_15px_rgba(201,162,39,0.15)]">
+                    <PhoneCall className="w-5 h-5 sm:w-6 sm:h-6" />
                   </div>
                   <Badge variant="gold">Voice AI Active</Badge>
                 </div>
 
-                <span className="text-xs font-mono uppercase tracking-wider text-accent-gold">Dental Clinic Case Study</span>
-                <h3 className="text-3xl font-bold font-serif text-text-primary mt-2 mb-4">
+                <span className="text-[11px] font-mono uppercase tracking-wider text-accent-gold">Dental Clinic Case Study</span>
+                <h3 className="text-2xl sm:text-3xl font-bold font-display text-text-primary mt-1 mb-3 sm:mb-4">
                   Revive Dental Care
                 </h3>
-                <p className="text-sm text-text-muted leading-relaxed mb-6 font-sans">
+                <p className="text-xs sm:text-sm text-text-muted leading-relaxed mb-6 font-sans">
                   Deployed a premium custom React site integrated with a Vapi-powered AI voice receptionist. The voice agent answers after-hours patient calls, screens dental emergencies, and logs bookings directly to Google Calendar.
                 </p>
 
-                <div className="space-y-4 mb-6">
+                <div className="space-y-3 sm:space-y-4 mb-6">
                   <div className="flex items-center gap-3">
-                    <CheckCircle2 className="text-accent-emerald w-5 h-5 shrink-0" />
-                    <span className="text-sm text-text-primary">98% customer calls handled automatically</span>
+                    <CheckCircle2 className="text-accent-emerald w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+                    <span className="text-xs sm:text-sm text-text-primary">98% customer calls handled automatically</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <CheckCircle2 className="text-accent-emerald w-5 h-5 shrink-0" />
-                    <span className="text-sm text-text-primary">Zero missed bookings after clinic hours</span>
+                    <CheckCircle2 className="text-accent-emerald w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+                    <span className="text-xs sm:text-sm text-text-primary">Zero missed bookings after clinic hours</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <CheckCircle2 className="text-accent-emerald w-5 h-5 shrink-0" />
-                    <span className="text-sm text-text-primary">Full patient record protection via custom RLS</span>
+                    <CheckCircle2 className="text-accent-emerald w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+                    <span className="text-xs sm:text-sm text-text-primary">Full patient record protection via custom RLS</span>
                   </div>
                 </div>
               </div>
 
-              <div className="border-t border-white/5 pt-6 flex flex-wrap gap-2 mt-auto">
+              <div className="border-t border-white/5 pt-5 sm:pt-6 flex flex-wrap gap-2 mt-auto">
                 <span className="text-xs font-mono text-text-muted bg-white/5 px-2.5 py-1 rounded">React</span>
                 <span className="text-xs font-mono text-text-muted bg-white/5 px-2.5 py-1 rounded">Vapi.ai Voice</span>
                 <span className="text-xs font-mono text-text-muted bg-white/5 px-2.5 py-1 rounded">Site Shield</span>
@@ -100,20 +100,20 @@ export default function CaseStudies() {
 
           {/* Right Side: Case Study 2 + Interactive Simulator (Aura Spa - WhatsApp AI) */}
           <div className="lg:col-span-7 flex">
-            <GlassCard glowColor="gold" className="w-full flex flex-col justify-between" hoverGlow={true}>
+            <GlassCard glowColor="gold" className="w-full flex flex-col justify-between p-6 sm:p-8" hoverGlow={true}>
               <div className="grid grid-cols-1 md:grid-cols-12 gap-6 h-full">
                 
                 {/* Text Content */}
                 <div className="md:col-span-5 flex flex-col justify-between">
                   <div>
                     <div className="flex items-center gap-2 mb-4">
-                      <div className="p-2 bg-accent-gold/10 text-accent-gold rounded">
+                      <div className="p-2.5 bg-accent-gold/10 text-accent-gold rounded-lg border border-accent-gold/20">
                         <MessageSquare className="w-5 h-5" />
                       </div>
                       <Badge variant="emerald">WhatsApp Integration</Badge>
                     </div>
                     <span className="text-[10px] font-mono uppercase tracking-wider text-accent-gold">Spa Operations Build</span>
-                    <h3 className="text-2xl font-bold font-serif text-text-primary mt-1 mb-3">
+                    <h3 className="text-xl sm:text-2xl font-bold font-display text-text-primary mt-1 mb-3">
                       Aura Wellness Spa
                     </h3>
                     <p className="text-xs text-text-muted leading-relaxed mb-6 font-sans">

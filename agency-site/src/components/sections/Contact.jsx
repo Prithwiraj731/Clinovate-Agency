@@ -96,46 +96,46 @@ export default function Contact() {
         <SectionHeading
           title="Secure your launch. Book a consultation."
           subtitle="Get In Touch"
-          description="Ready to upgrade your web presence and lock down vulnerabilities? Drop us a line or schedule an appointment directly."
+          description="Ready to upgrade your web presence and lock down vulnerabilities? Drop me a line or schedule an appointment directly."
         />
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-stretch">
           
           {/* Left Column: Booking & Direct Contacts */}
           <div className="lg:col-span-5 flex flex-col justify-between space-y-6">
             
             {/* Direct Connect Options */}
             <div className="space-y-4">
-              <div className="p-6 bg-bg-surface/50 border border-white/5 rounded-xl flex items-start gap-4">
-                <div className="p-3 bg-accent-gold/10 text-accent-gold rounded-lg">
+              <div className="p-5 sm:p-6 bg-bg-surface/50 border border-white/10 rounded-xl flex items-start gap-4 backdrop-blur">
+                <div className="p-3 bg-accent-gold/10 text-accent-gold rounded-lg border border-accent-gold/20 shrink-0">
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-serif font-bold text-text-primary mb-1">Direct Inquiries</h4>
-                  <p className="text-sm text-text-muted font-sans">contact@zeropoint.agency</p>
+                  <h4 className="text-sm font-display font-bold text-text-primary mb-1">Direct Inquiries</h4>
+                  <p className="text-sm text-text-muted font-sans break-all">contact@zeropoint.agency</p>
                 </div>
               </div>
 
-              <div className="p-6 bg-bg-surface/50 border border-white/5 rounded-xl flex items-start gap-4">
-                <div className="p-3 bg-accent-gold/10 text-accent-gold rounded-lg">
+              <div className="p-5 sm:p-6 bg-bg-surface/50 border border-white/10 rounded-xl flex items-start gap-4 backdrop-blur">
+                <div className="p-3 bg-accent-gold/10 text-accent-gold rounded-lg border border-accent-gold/20 shrink-0">
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-serif font-bold text-text-primary mb-1">HQ Location</h4>
+                  <h4 className="text-sm font-display font-bold text-text-primary mb-1">HQ Location</h4>
                   <p className="text-sm text-text-muted font-sans">West Bengal, India</p>
                 </div>
               </div>
             </div>
 
             {/* Calendar Booking & WhatsApp triggers */}
-            <GlassCard glowColor="gold" className="p-8 flex-1 flex flex-col justify-between">
+            <GlassCard glowColor="gold" className="p-6 sm:p-8 flex-1 flex flex-col justify-between">
               <div>
                 <div className="flex items-center gap-2.5 mb-4">
-                  <Calendar className="text-accent-gold w-5 h-5" />
-                  <h4 className="font-serif font-bold text-lg text-text-primary">Instant Scheduling</h4>
+                  <Calendar className="text-accent-gold w-5 h-5 shrink-0" />
+                  <h4 className="font-display font-bold text-base sm:text-lg text-text-primary">Instant Scheduling</h4>
                 </div>
                 <p className="text-xs text-text-muted leading-relaxed mb-6 font-sans">
-                  Prefer a video call? Pick a convenient time slot for a free 20-minute secure architecture audit. We'll map your requirements and run a visual scan.
+                  Prefer a video call? Pick a convenient time slot for a free 20-minute secure architecture audit. I'll map your requirements and run a visual scan.
                 </p>
               </div>
 
@@ -155,17 +155,17 @@ export default function Contact() {
                   }}
                   variant="primary" 
                   magnetic={true} 
-                  className="w-full text-xs py-3 gap-2"
+                  className="w-full text-xs py-3.5 gap-2 min-h-[44px]"
                 >
                   <Calendar className="w-4 h-4" /> Schedule Discovery Call
                 </Button>
 
                 {/* WhatsApp Click-to-Chat */}
                 <Button 
-                  onClick={() => window.open('https://wa.me/919832199064?text=Hi%20ZEROPOINT%2C%20I%20want%20to%20audit%20my%20website%20security.', '_blank')}
+                  onClick={() => window.open('https://wa.me/919832199064?text=Hi%20Prithwiraj%2C%20I%20want%20to%20audit%20my%20website%20security.', '_blank')}
                   variant="secondary" 
                   magnetic={true} 
-                  className="w-full text-xs py-3 gap-2 border-green-500/30 text-green-400 hover:bg-green-500/10"
+                  className="w-full text-xs py-3.5 gap-2 border-green-500/30 text-green-400 hover:bg-green-500/10 min-h-[44px]"
                 >
                   <MessageCircle className="w-4 h-4" /> Chat on WhatsApp
                 </Button>
@@ -176,7 +176,7 @@ export default function Contact() {
 
           {/* Right Column: Contact Form */}
           <div className="lg:col-span-7">
-            <GlassCard glowColor="gold" className="p-8 md:p-10 h-full flex flex-col justify-center">
+            <GlassCard glowColor="gold" className="p-6 sm:p-8 md:p-10 h-full flex flex-col justify-center">
               
               <AnimatePresence mode="wait">
                 {status === 'success' ? (
@@ -188,16 +188,16 @@ export default function Contact() {
                     className="text-center py-10"
                   >
                     <CheckCircle className="w-16 h-16 text-accent-emerald mx-auto mb-6" />
-                    <h3 className="text-2xl font-bold font-serif text-text-primary mb-2">Message Transmitted</h3>
+                    <h3 className="text-2xl font-bold font-display text-text-primary mb-2">Message Transmitted</h3>
                     <p className="text-sm text-text-muted max-w-md mx-auto leading-relaxed font-sans">
-                      Thank you for reaching out. We have logged your request securely. A senior partner will contact you within 12 hours.
+                      Thank you for reaching out. I have received your request securely and will contact you within 12 hours.
                     </p>
                   </motion.div>
                 ) : (
                   <motion.div key="form" className="space-y-6">
                     <div>
-                      <h3 className="text-xl font-bold font-serif text-text-primary mb-1">Submit an Inquiry</h3>
-                      <p className="text-xs text-text-muted font-sans">Submit your parameters to receive a custom scoping estimate.</p>
+                      <h3 className="text-xl font-bold font-display text-text-primary mb-1">Submit an Inquiry</h3>
+                      <p className="text-xs text-text-muted font-sans">Submit your project parameters to receive a custom scoping estimate.</p>
                     </div>
 
                     <form onSubmit={handleSubmit} className="space-y-4">
@@ -215,7 +215,7 @@ export default function Contact() {
                           value={form.name}
                           onChange={handleInputChange}
                           placeholder="e.g. Dr. Sarah Chen"
-                          className="px-4 py-3 bg-bg border border-white/10 rounded-lg text-text-primary placeholder:text-text-muted/50 focus:outline-none focus:ring-1 focus:ring-accent-gold/40 focus:border-accent-gold/40 text-sm font-sans"
+                          className="px-4 py-3 bg-bg border border-white/10 rounded-lg text-text-primary placeholder:text-text-muted/50 focus:outline-none focus:ring-1 focus:ring-accent-gold/40 focus:border-accent-gold/40 text-base md:text-sm font-sans"
                         />
                       </div>
 
@@ -259,7 +259,7 @@ export default function Contact() {
                       {/* Message Input */}
                       <div className="flex flex-col gap-1.5 text-left">
                         <label className="text-[10px] uppercase font-bold tracking-wider text-text-muted font-mono" htmlFor="message">
-                          Tell Us About Your Project *
+                          Tell Me About Your Project *
                         </label>
                         <textarea
                           id="message"
@@ -268,8 +268,8 @@ export default function Contact() {
                           rows={4}
                           value={form.message}
                           onChange={handleInputChange}
-                          placeholder="What goals are you looking to achieve? Mention security scope or AI receptionist if interested."
-                          className="px-4 py-3 bg-bg border border-white/10 rounded-lg text-text-primary placeholder:text-text-muted/50 focus:outline-none focus:ring-1 focus:ring-accent-gold/40 focus:border-accent-gold/40 text-sm font-sans resize-none"
+                          placeholder="Please specify timeline, security priorities, or custom integrations..."
+                          className="px-4 py-3 bg-bg border border-white/10 rounded-lg text-text-primary placeholder:text-text-muted/50 focus:outline-none focus:ring-1 focus:ring-accent-gold/40 focus:border-accent-gold/40 text-base md:text-sm font-sans resize-none"
                         />
                       </div>
 

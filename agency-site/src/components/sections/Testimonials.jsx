@@ -15,30 +15,30 @@ export default function Testimonials() {
       <Container>
         <SectionHeading
           title="Your success story. Built by ZEROPOINT."
-          subtitle="Testimonials"
-          description="We are actively scaling clinic partners across the region. Read about our Partner Program opportunity below."
+          subtitle="Case Studies"
+          description="I am actively onboarding select clinic partners. Read about my Partner Program opportunity below."
         />
 
         <div className="max-w-4xl mx-auto">
-          <GlassCard glowColor="gold" className="p-8 md:p-12 text-center relative overflow-hidden">
+          <GlassCard glowColor="gold" className="p-6 sm:p-10 md:p-12 text-center relative overflow-hidden">
             {/* Quote marks in background */}
             <Quote className="absolute -top-6 -left-6 w-32 h-32 text-white/[0.02] pointer-events-none" />
             
             <div className="relative z-10">
-              <div className="inline-flex p-3 rounded-full bg-accent-gold/10 text-accent-gold mb-6 border border-accent-gold/20">
-                <Sparkles className="w-8 h-8 animate-pulse" />
+              <div className="inline-flex p-3 rounded-full bg-accent-gold/10 text-accent-gold mb-5 sm:mb-6 border border-accent-gold/20 shadow-[0_0_15px_rgba(201,162,39,0.15)]">
+                <Sparkles className="w-6 h-6 sm:w-8 sm:h-8 animate-pulse" />
               </div>
 
-              <Badge variant="gold" className="mb-4 block max-w-fit mx-auto">
+              <Badge variant="gold" className="mb-4 inline-block">
                 ZEROPOINT Partner Program
               </Badge>
 
-              <h3 className="text-3xl md:text-4xl font-bold font-serif text-text-primary tracking-tight mb-4">
-                Be our next success case study.
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold font-display text-text-primary tracking-tight mb-4">
+                Be my next success case study.
               </h3>
               
-              <p className="text-sm md:text-base text-text-muted leading-relaxed max-w-2xl mx-auto mb-8 font-sans">
-                As a specialized agency focusing on secure, automated digital infrastructure, we are selecting our first <strong>three clinic partners</strong> to receive dedicated development terms, prioritized onboarding, and special pricing offsets in exchange for an detailed launch case study.
+              <p className="text-xs sm:text-sm md:text-base text-text-muted leading-relaxed max-w-2xl mx-auto mb-6 sm:mb-8 font-sans">
+                As an engineer specializing in secure, automated digital infrastructure, I am selecting my first <strong>three clinic partners</strong> to receive dedicated development terms, prioritized onboarding, and special pricing offsets in exchange for a detailed launch case study.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 text-left max-w-xl mx-auto mb-8 font-sans">

@@ -20,8 +20,10 @@ export default function SectionHeading({
   };
 
   const badgeColor = accent === 'emerald' 
-    ? 'text-accent-emerald bg-accent-emerald/10 border-accent-emerald/20' 
-    : 'text-accent-gold bg-accent-gold/10 border-accent-gold/20';
+    ? 'text-accent-emerald bg-accent-emerald/10 border-accent-emerald/25 shadow-[0_0_15px_rgba(16,185,129,0.15)]' 
+    : 'text-accent-gold bg-accent-gold/10 border-accent-gold/25 shadow-[0_0_15px_rgba(201,162,39,0.15)]';
+
+  const dotColor = accent === 'emerald' ? 'bg-accent-emerald' : 'bg-accent-gold';
 
   return (
     <motion.div 
@@ -29,20 +31,21 @@ export default function SectionHeading({
       whileInView="visible"
       viewport={{ once: true, margin: "-100px" }}
       variants={containerVariants}
-      className={`max-w-3xl mb-16 ${isLeft ? 'text-left' : 'mx-auto text-center'}`}
+      className={`max-w-3xl mb-12 sm:mb-16 ${isLeft ? 'text-left' : 'mx-auto text-center'}`}
     >
       {subtitle && (
-        <span className={`inline-block px-3 py-1 text-xs font-semibold tracking-widest uppercase rounded-full border ${badgeColor} mb-4`}>
-          {subtitle}
-        </span>
+        <div className={`inline-flex items-center gap-2 px-3.5 py-1.5 text-[11px] font-mono font-medium tracking-widest uppercase rounded-full border ${badgeColor} mb-4 backdrop-blur-md`}>
+          <span className={`w-1.5 h-1.5 rounded-full ${dotColor} animate-pulse`} />
+          <span>{subtitle}</span>
+        </div>
       )}
       
-      <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-text-primary tracking-tight leading-tight mb-6">
+      <h2 className="text-2xl sm:text-4xl md:text-5xl font-display font-extrabold text-text-primary tracking-tight leading-[1.15] mb-4 sm:mb-5">
         {title}
       </h2>
       
       {description && (
-        <p className="text-lg md:text-xl text-text-muted leading-relaxed font-sans font-normal">
+        <p className="text-sm sm:text-base md:text-lg text-text-muted leading-relaxed font-sans font-normal max-w-2xl mx-auto">
           {description}
         </p>
       )}

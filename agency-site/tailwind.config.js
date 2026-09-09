@@ -21,8 +21,10 @@ export default {
         }
       },
       fontFamily: {
+        display: ['Outfit', 'sans-serif'],
         serif: ['Fraunces', 'Georgia', 'serif'],
         sans: ['Inter', 'system-ui', 'sans-serif'],
+        mono: ['"JetBrains Mono"', 'monospace'],
       },
     },
   },

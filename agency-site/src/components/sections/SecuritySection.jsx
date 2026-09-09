@@ -54,50 +54,50 @@ export default function SecuritySection() {
           title="Bank-grade shield. Built-in, not an add-on."
           subtitle="Site Shield Security"
           accent="emerald"
-          description="A compromised website is the fastest way to lose patient trust and search engine rankings. We build clinical-grade security into your project from the first line of code."
+          description="A compromised website is the fastest way to lose patient trust and search engine rankings. I build clinical-grade security into your project from the first line of code."
         />
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-start">
           
           {/* Left Column: Shield Positioning and Maintain & Protect Retainer */}
           <div className="lg:col-span-5 space-y-6">
-            <GlassCard glowColor="emerald" className="p-8">
-              <div className="flex items-center gap-3 mb-6">
-                <Lock className="text-accent-emerald w-7 h-7" />
-                <h3 className="text-2xl font-bold font-serif text-text-primary">Site Shield Philosophy</h3>
+            <GlassCard glowColor="emerald" className="p-6 sm:p-8">
+              <div className="flex items-center gap-3 mb-5">
+                <Lock className="text-accent-emerald w-6 h-6 sm:w-7 sm:h-7 shrink-0" />
+                <h3 className="text-xl sm:text-2xl font-bold font-display text-text-primary">Site Shield Philosophy</h3>
               </div>
-              <p className="text-sm text-text-muted leading-relaxed mb-6 font-sans">
-                Most web agencies build sites with default templates and ignore database safety rules, vulnerable login gateways, and frame headers. ZEROPOINT hardens the hosting edge, the browser interface, and database layers so your practice remains fully compliant and protected against attacks.
+              <p className="text-xs sm:text-sm text-text-muted leading-relaxed mb-6 font-sans">
+                Most web agencies build sites with default templates and ignore database safety rules, vulnerable login gateways, and frame headers. I harden the hosting edge, the browser interface, and database layers so your practice remains fully compliant and protected against attacks.
               </p>
               
-              <div className="flex items-center gap-2 p-3 bg-accent-emerald/5 border border-accent-emerald/10 rounded-lg">
-                <Terminal className="text-accent-emerald w-5 h-5 shrink-0" />
-                <span className="text-xs font-mono text-text-primary">
+              <div className="flex items-center gap-2.5 p-3 bg-accent-emerald/5 border border-accent-emerald/15 rounded-lg">
+                <Terminal className="text-accent-emerald w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+                <span className="text-[11px] sm:text-xs font-mono text-text-primary">
                   Headers validated against OWASP standards.
                 </span>
               </div>
             </GlassCard>
 
-            <GlassCard glowColor="emerald" className="p-8">
+            <GlassCard glowColor="emerald" className="p-6 sm:p-8">
               <div className="flex items-center gap-3 mb-4">
-                <Activity className="text-accent-emerald w-6 h-6" />
-                <h4 className="text-lg font-bold font-serif text-text-primary">Maintain & Protect Retainer</h4>
+                <Activity className="text-accent-emerald w-5 h-5 sm:w-6 sm:h-6 shrink-0" />
+                <h4 className="text-base sm:text-lg font-bold font-display text-text-primary">Maintain & Protect Retainer</h4>
               </div>
               <p className="text-xs text-text-muted leading-relaxed mb-4 font-sans">
-                Positioned as automated insurance to shield your daily operations. We check configurations, monitor certificates, and review files to prevent downtime before it impacts clients.
+                Positioned as automated insurance to shield your daily operations. I check configurations, monitor certificates, and review files to prevent downtime before it impacts clients.
               </p>
               
               <ul className="space-y-2.5 text-xs text-text-muted font-sans mb-4">
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-accent-emerald" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent-emerald shrink-0" />
                   Monthly audit logs and vulnerability summaries
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-accent-emerald" />
-                  24/7 uptime monitoring with instant sms logs
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent-emerald shrink-0" />
+                  24/7 uptime monitoring with instant SMS logs
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 rounded-full bg-accent-emerald" />
+                  <span className="w-1.5 h-1.5 rounded-full bg-accent-emerald shrink-0" />
                   Quarterly system-wide pentesting checkpoints
                 </li>
               </ul>
@@ -113,11 +113,11 @@ export default function SecuritySection() {
           <div className="lg:col-span-7 space-y-6">
             
             {/* Baseline Security Checklist */}
-            <GlassCard glowColor="emerald" className="p-8">
-              <div className="flex items-center justify-between mb-6 pb-4 border-b border-white/5">
+            <GlassCard glowColor="emerald" className="p-6 sm:p-8">
+              <div className="flex items-center justify-between mb-5 sm:mb-6 pb-4 border-b border-white/5">
                 <div className="flex items-center gap-3">
-                  <Shield className="text-accent-emerald w-6 h-6" />
-                  <h3 className="text-xl font-bold font-serif text-text-primary">Baseline Security (Standard)</h3>
+                  <Shield className="text-accent-emerald w-5 h-5 sm:w-6 sm:h-6 shrink-0" />
+                  <h3 className="text-lg sm:text-xl font-bold font-display text-text-primary">Baseline Security (Standard)</h3>
                 </div>
                 <Badge variant="emerald">Every Build</Badge>
               </div>
@@ -127,15 +127,15 @@ export default function SecuritySection() {
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={listVariants}
-                className="space-y-3.5"
+                className="space-y-3 sm:space-y-3.5"
               >
                 {baselineChecklist.map((item, idx) => (
                   <motion.li 
                     key={idx} 
                     variants={itemVariants}
-                    className="flex items-start gap-3 text-sm text-text-primary font-sans"
+                    className="flex items-start gap-2.5 sm:gap-3 text-xs sm:text-sm text-text-primary font-sans"
                   >
-                    <Check className="w-4.5 h-4.5 text-accent-emerald shrink-0 mt-0.5" />
+                    <Check className="w-4 h-4 text-accent-emerald shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </motion.li>
                 ))}
@@ -143,11 +143,11 @@ export default function SecuritySection() {
             </GlassCard>
 
             {/* WordPress-Specific Hardening Checklist */}
-            <GlassCard glowColor="emerald" className="p-8">
-              <div className="flex items-center justify-between mb-6 pb-4 border-b border-white/5">
+            <GlassCard glowColor="emerald" className="p-6 sm:p-8">
+              <div className="flex items-center justify-between mb-5 sm:mb-6 pb-4 border-b border-white/5">
                 <div className="flex items-center gap-3">
-                  <Server className="text-accent-emerald w-6 h-6" />
-                  <h3 className="text-xl font-bold font-serif text-text-primary">WordPress-Specific Hardening</h3>
+                  <Server className="text-accent-emerald w-5 h-5 sm:w-6 sm:h-6 shrink-0" />
+                  <h3 className="text-lg sm:text-xl font-bold font-display text-text-primary">WordPress-Specific Hardening</h3>
                 </div>
                 <Badge variant="gray">Optional</Badge>
               </div>
@@ -157,15 +157,15 @@ export default function SecuritySection() {
                 whileInView="visible"
                 viewport={{ once: true }}
                 variants={listVariants}
-                className="space-y-3.5"
+                className="space-y-3 sm:space-y-3.5"
               >
                 {wordpressChecklist.map((item, idx) => (
                   <motion.li 
                     key={idx} 
                     variants={itemVariants}
-                    className="flex items-start gap-3 text-sm text-text-primary font-sans"
+                    className="flex items-start gap-2.5 sm:gap-3 text-xs sm:text-sm text-text-primary font-sans"
                   >
-                    <Check className="w-4.5 h-4.5 text-accent-emerald shrink-0 mt-0.5" />
+                    <Check className="w-4 h-4 text-accent-emerald shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </motion.li>
                 ))}

@@ -23,7 +23,7 @@ export default function Navbar({ onNavigate }) {
 
   const navLinks = [
     { name: "Services", href: "#services" },
-    { name: "Why Us", href: "#why-us" },
+    { name: "Why ZEROPOINT", href: "#why-us" },
     { name: "Process", href: "#process" },
     { name: "Security", href: "#security" },
     { name: "Pricing", href: "#pricing" },
@@ -123,7 +123,7 @@ export default function Navbar({ onNavigate }) {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: 'easeInOut' }}
-            className="fixed top-[72px] left-0 w-full bg-bg-surface border-b border-white/5 z-40 lg:hidden overflow-hidden shadow-2xl"
+            className="fixed top-[68px] sm:top-[72px] left-0 w-full bg-bg/95 backdrop-blur-xl border-b border-white/10 z-40 lg:hidden overflow-hidden shadow-2xl max-h-[calc(100vh-80px)] overflow-y-auto"
           >
             <Container className="py-6 flex flex-col gap-6">
               <div className="flex flex-col gap-4">

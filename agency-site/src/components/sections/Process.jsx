@@ -63,31 +63,31 @@ export default function Process() {
     {
       num: "01",
       title: "Discover & Position",
-      description: "We audit your current traffic, reviews, and security flaws. We map out a bespoke patient acquisition funnel and clarify clinic-specific positioning.",
+      description: "I audit your current traffic, reviews, and security flaws. I map out a bespoke client acquisition funnel and clarify clinic-specific positioning.",
       details: ["Vulnerability report", "Conversion mapping", "Positioning framework"]
     },
     {
       num: "02",
       title: "Premium UX Design",
-      description: "We draft custom Figma layouts using our Midnight & Gold color scheme. No templates. Every design is built to feel luxurious, distinct, and premium.",
+      description: "I draft custom Figma layouts using a signature Midnight & Gold color scheme. No templates. Every design is built to feel luxurious, distinct, and premium.",
       details: ["Custom wireframes", "Tailored mobile layout", "UX path planning"]
     },
     {
       num: "03",
       title: "High-Performance Build",
-      description: "We build your platform in React with Vite and Tailwind. This ensures lightning-fast page loading and robust responsiveness across all devices.",
+      description: "I build your platform in React with Vite and Tailwind. This ensures lightning-fast page loading and robust responsiveness across all devices.",
       details: ["Sub-second loading", "Clean semantic structure", "React component mapping"]
     },
     {
       num: "04",
       title: "Site Shield Hardening",
-      description: "Our core differentiator. We configure edge firewalls, disable vulnerable vectors, and write Supabase Row Level Security policies to lock down data.",
+      description: "My core differentiator. I configure edge firewalls, disable vulnerable vectors, and write Supabase Row Level Security policies to lock down data.",
       details: ["HSTS & CSP headers setup", "Supabase RLS configured", "Cloudflare edge shielding"]
     },
     {
       num: "05",
       title: "Launch & Automate",
-      description: "We connect your custom AI voice receptionist or WhatsApp booking workflows. We activate analytics and GBP optimization to launch customer inflow.",
+      description: "I connect your custom AI voice receptionist or WhatsApp booking workflows. I activate analytics and GBP optimization to launch customer inflow.",
       details: ["AI reception integrations", "SEO console submissions", "Review requests active"]
     }
   ];
@@ -96,25 +96,25 @@ export default function Process() {
     <section id="process" className="py-24 bg-[#09090D] relative scroll-mt-20">
       <Container>
         <SectionHeading
-          title="Our technical blueprint to launch."
+          title="My technical blueprint to launch."
           subtitle="The Process"
-          description="How we construct secure, high-conversion systems. Every phase is meticulously planned, verified, and locked down."
+          description="How I construct secure, high-conversion systems. Every phase is meticulously planned, verified, and locked down."
         />
 
-        <div ref={containerRef} className="relative max-w-5xl mx-auto mt-20">
+        <div ref={containerRef} className="relative max-w-5xl mx-auto mt-14 sm:mt-20">
           
           {/* Main Timeline Line (Background Track) */}
-          <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-white/5 -translate-x-1/2" />
+          <div className="absolute left-3.5 sm:left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-white/5 -translate-x-1/2" />
           
           {/* Animated GSAP Progress Line */}
           <div 
             ref={lineRef}
-            className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-accent-gold -translate-x-1/2 origin-top"
+            className="absolute left-3.5 sm:left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-accent-gold -translate-x-1/2 origin-top"
             style={{ transformScaleY: 0 }}
           />
 
           {/* Steps */}
-          <div className="space-y-20">
+          <div className="space-y-12 sm:space-y-20">
             {steps.map((step, idx) => {
               const isEven = idx % 2 === 0;
               return (
@@ -126,22 +126,22 @@ export default function Process() {
                   }`}
                 >
                   {/* Timeline Node Dot */}
-                  <div className="timeline-dot absolute left-4 md:left-1/2 top-6 w-4 h-4 rounded-full bg-bg-surface border-2 border-white/10 -translate-x-1/2 z-20 transition-colors duration-300" />
+                  <div className="timeline-dot absolute left-3.5 sm:left-4 md:left-1/2 top-6 w-3.5 sm:w-4 h-3.5 sm:h-4 rounded-full bg-bg-surface border-2 border-white/10 -translate-x-1/2 z-20 transition-colors duration-300" />
 
                   {/* Step Card Container */}
-                  <div className="w-full md:w-1/2 pl-12 md:pl-0 md:px-12">
+                  <div className="w-full md:w-1/2 pl-9 sm:pl-12 md:pl-0 md:px-10 lg:px-12">
                     <motion.div
                       initial={{ opacity: 0, y: 30 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true, margin: "-100px" }}
                       transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
                     >
-                      <GlassCard glowColor="none" className="p-6 md:p-8 hover:border-accent-gold/15 transition-all">
-                        <div className="flex items-center justify-between mb-4">
-                          <span className="font-serif text-3xl font-bold text-accent-gold/45">
+                      <GlassCard glowColor="none" className="p-5 sm:p-7 md:p-8 hover:border-accent-gold/20 transition-all">
+                        <div className="flex items-center justify-between mb-3 sm:mb-4">
+                          <span className="font-mono text-2xl sm:text-3xl font-bold text-accent-gold/40">
                             {step.num}
                           </span>
-                          <h4 className="text-xl font-bold font-serif text-text-primary">
+                          <h4 className="text-lg sm:text-xl font-bold font-display text-text-primary">
                             {step.title}
                           </h4>
                         </div>

@@ -43,7 +43,7 @@ export default function PrivacyPolicy({ onNavigate }) {
               <Eye className="w-4.5 h-4.5 text-accent-gold" /> 1. Overview
             </h3>
             <p>
-              At ZEROPOINT, we build secure systems and treat data protection as a fundamental technical requirement, not an afterthought. This Privacy Policy details how we collect, store, and shield parameters gathered via our marketing website, instant security scanners, and booking workflows.
+              At ZEROPOINT, I build secure systems and treat data protection as a fundamental technical requirement, not an afterthought. This Privacy Policy details how I collect, store, and shield parameters gathered via my website, instant security scanners, and booking workflows.
             </p>
           </div>
 
@@ -52,14 +52,14 @@ export default function PrivacyPolicy({ onNavigate }) {
               <FileText className="w-4.5 h-4.5 text-accent-gold" /> 2. Information Collected
             </h3>
             <p>
-              We gather variables under two explicit flows:
+              I gather variables under two explicit flows:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-xs">
               <li>
-                <strong>Instant Security Analyzer Logs:</strong> When you input a domain URL to run our Site Shield inspection, our edge functions fetch header variables (CSP, HSTS, X-Frame-Options) to calculate a score. We store the scanned domain name and generated metrics to evaluate local market vulnerability statistics.
+                <strong>Instant Security Analyzer Logs:</strong> When you input a domain URL to run my Site Shield inspection, my edge functions fetch header variables (CSP, HSTS, X-Frame-Options) to calculate a score. I store the scanned domain name and generated metrics to evaluate local market vulnerability statistics.
               </li>
               <li>
-                <strong>Project Consultation Parameters:</strong> When submitting booking inquiries or contacting our partners, we collect your name, business name, email coordinates, industry verticals, and custom messages.
+                <strong>Project Consultation Parameters:</strong> When submitting booking inquiries or contacting me, I collect your name, business name, email coordinates, industry verticals, and custom messages.
               </li>
             </ul>
           </div>
@@ -69,7 +69,7 @@ export default function PrivacyPolicy({ onNavigate }) {
               <Shield className="w-4.5 h-4.5 text-accent-gold" /> 3. Database Security & RLS
             </h3>
             <p>
-              Unlike standard freelancers, we do not store customer coordinates in open databases. All entries are written directly to database layers shielded by **Supabase Row Level Security (RLS) policies**. The public anonymous API keys are restricted to write-only permissions. Anonymous queries can never retrieve, update, or compromise submitted leads.
+              Unlike standard freelancers, I do not store customer coordinates in open databases. All entries are written directly to database layers shielded by **Supabase Row Level Security (RLS) policies**. The public anonymous API keys are restricted to write-only permissions. Anonymous queries can never retrieve, update, or compromise submitted leads.
             </p>
           </div>
 
@@ -78,7 +78,7 @@ export default function PrivacyPolicy({ onNavigate }) {
               <Lock className="w-4.5 h-4.5 text-accent-gold" /> 4. Data Retention & Transfers
             </h3>
             <p>
-              ZEROPOINT retains client parameters only as long as necessary to complete project contracts or coordinate consultation audits. We do not sell, rent, or lease leads to third-party marketing companies. If you decide to transition your operations, we transfer 100% database ownership and credentials directly to you.
+              ZEROPOINT retains client parameters only as long as necessary to complete project contracts or coordinate consultation audits. I do not sell, rent, or lease leads to third-party marketing companies. If you decide to transition your operations, I transfer 100% database ownership and credentials directly to you.
             </p>
           </div>
 
@@ -87,7 +87,7 @@ export default function PrivacyPolicy({ onNavigate }) {
               <FileText className="w-4.5 h-4.5 text-accent-gold" /> 5. Technical Rights
             </h3>
             <p>
-              You have the right to request deletion of your scanned domain records or contact entries at any time. To purge your files from our staging databases, contact us at <strong>contact@zeropoint.agency</strong>.
+              You have the right to request deletion of your scanned domain records or contact entries at any time. To purge your files from my staging databases, contact me at <strong>contact@zeropoint.agency</strong>.
             </p>
           </div>
 

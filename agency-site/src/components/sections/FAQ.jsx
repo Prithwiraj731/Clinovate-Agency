@@ -18,28 +18,28 @@ export default function FAQ() {
         <SectionHeading
           title="Common questions. Straight answers."
           subtitle="Frequently Asked Questions"
-          description="Everything you need to know about our custom development scopes, clinical database security, and AI integrations."
+          description="Everything you need to know about my custom development scopes, clinical database security, and AI integrations."
         />
 
-        <div className="max-w-3xl mx-auto space-y-4">
+        <div className="max-w-3xl mx-auto space-y-3 sm:space-y-4">
           {faqs.map((faq, idx) => {
             const isOpen = openIdx === idx;
             
             return (
               <div 
                 key={idx}
-                className="border border-white/5 bg-bg-surface/40 backdrop-blur rounded-xl overflow-hidden transition-all duration-300 hover:border-accent-gold/20"
+                className="border border-white/10 bg-bg-surface/50 backdrop-blur-md rounded-xl overflow-hidden transition-all duration-300 hover:border-accent-gold/25"
               >
                 {/* Accordion Header */}
                 <button
                   onClick={() => toggleFaq(idx)}
-                  className="w-full flex items-center justify-between p-5 md:p-6 text-left focus:outline-none focus:ring-2 focus:ring-accent-gold/30"
+                  className="w-full flex items-center justify-between p-4 sm:p-5 md:p-6 text-left focus:outline-none focus:ring-2 focus:ring-accent-gold/30"
                   aria-expanded={isOpen}
                   aria-controls={`faq-answer-${idx}`}
                 >
                   <div className="flex items-center gap-3 pr-4">
                     <HelpCircle className="w-5 h-5 text-accent-gold shrink-0 mt-0.5" />
-                    <span className="font-serif text-base md:text-lg font-bold text-text-primary">
+                    <span className="font-display text-sm sm:text-base md:text-lg font-bold text-text-primary">
                       {faq.question}
                     </span>
                   </div>

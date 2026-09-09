@@ -56,9 +56,9 @@ export default function Footer({ onNavigate }) {
               <ZeroPointLogo />
             </a>
             <p className="text-sm text-text-muted max-w-sm mb-6 leading-relaxed">
-              We design, build, and secure premium digital solutions for local clinics, cafes, and service businesses.
+              I design, build, and secure premium digital solutions for clinics, high-growth startups, and local businesses.
             </p>
-            <div className="inline-flex items-center gap-2 bg-white/5 border border-white/5 py-1.5 px-3 rounded-lg">
+            <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 py-1.5 px-3 rounded-lg shadow-inner">
               <Shield className="text-accent-emerald w-4 h-4" />
               <span className="text-xs text-text-primary font-mono">Site Shield Active Protection</span>
             </div>
@@ -66,17 +66,17 @@ export default function Footer({ onNavigate }) {
 
           {/* Quick Links */}
           <div>
-            <h5 className="font-serif text-sm font-semibold uppercase tracking-wider text-text-primary mb-4">
+            <h5 className="font-display text-sm font-semibold uppercase tracking-wider text-text-primary mb-4">
               Shortcuts
             </h5>
-            <ul className="space-y-2.5">
+            <ul className="space-y-2.5 font-sans">
               <li>
                 <a 
                   href="#services" 
                   onClick={(e) => handleShortcutClick(e, '#services')}
                   className="text-sm text-text-muted hover:text-accent-gold transition-colors"
                 >
-                  Our Services
+                  Services
                 </a>
               </li>
               <li>
@@ -85,7 +85,7 @@ export default function Footer({ onNavigate }) {
                   onClick={(e) => handleShortcutClick(e, '#why-us')}
                   className="text-sm text-text-muted hover:text-accent-gold transition-colors"
                 >
-                  Why Us
+                  Why ZEROPOINT
                 </a>
               </li>
               <li>

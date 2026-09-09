@@ -55,26 +55,26 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           variants={textVariants}
-          className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 mb-8"
+          className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/[0.04] border border-white/10 mb-6 sm:mb-8 backdrop-blur-md shadow-[0_0_20px_rgba(0,0,0,0.4)]"
         >
           <span className="flex h-2 w-2 relative">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-emerald opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-emerald"></span>
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-accent-emerald shadow-[0_0_8px_#10b981]"></span>
           </span>
-          <span className="text-xs font-semibold tracking-wider uppercase text-text-primary font-sans">
-            Now Partnering With Dental & Medical Clinics
+          <span className="text-[11px] sm:text-xs font-mono font-medium tracking-wider uppercase text-text-primary">
+            Client Solutions & Full-Stack Engineering
           </span>
         </motion.div>
 
-        {/* Serif Agency Headline */}
+        {/* Display Headline */}
         <motion.h1
           custom={1}
           initial="hidden"
           animate="visible"
           variants={textVariants}
-          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-text-primary leading-[1.05] max-w-5xl mb-6 font-serif"
+          className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-display font-extrabold tracking-tight text-text-primary leading-[1.08] max-w-5xl mb-5 sm:mb-6 px-1"
         >
-          We build <span className="text-accent-gold italic">secure</span>, revenue-generating digital systems.
+          I build <span className="text-accent-gold italic font-serif font-normal">secure</span>, revenue-generating digital systems.
         </motion.h1>
 
         {/* Subtitle */}
@@ -83,9 +83,9 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           variants={textVariants}
-          className="text-lg md:text-xl lg:text-2xl text-text-muted max-w-3xl leading-relaxed mb-10 font-sans font-normal"
+          className="text-sm sm:text-base md:text-lg lg:text-xl text-text-muted max-w-2xl leading-relaxed mb-8 sm:mb-10 font-sans font-normal px-2"
         >
-          A premium web development, WordPress, and security partnership for local clinics and service businesses. Stop losing clients to missed calls and unprotected websites.
+          A premium web development, WordPress, and security engineering service for clinics, high-growth startups, and businesses. Stop losing clients to missed calls and unprotected websites.
         </motion.p>
 
         {/* Call to Actions */}
@@ -94,13 +94,13 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           variants={textVariants}
-          className="flex flex-col sm:flex-row items-center gap-4 mb-20"
+          className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3.5 mb-14 sm:mb-20 w-full max-w-md sm:max-w-none"
         >
-          <Button href="#contact" variant="primary" magnetic={true} className="w-full sm:w-auto">
+          <Button href="#contact" variant="primary" magnetic={true} className="w-full sm:w-auto py-3 px-6 text-sm">
             Book Free Consultation <Calendar className="w-4 h-4" />
           </Button>
-          <Button href="#scan-widget" variant="secondary" magnetic={true} className="w-full sm:w-auto">
-            Test Your Website Security <ShieldCheck className="w-4 h-4" />
+          <Button href="#scan-widget" variant="secondary" magnetic={true} className="w-full sm:w-auto py-3 px-6 text-sm">
+            Test Website Security <ShieldCheck className="w-4 h-4" />
           </Button>
         </motion.div>
 
@@ -111,7 +111,7 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           variants={textVariants}
-          className="w-full mb-12 scroll-mt-24"
+          className="w-full mb-10 sm:mb-12 scroll-mt-24"
         >
           <SecurityScanWidget />
         </motion.div>
@@ -120,11 +120,11 @@ export default function Hero() {
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="mt-8"
+          className="mt-6 sm:mt-8"
         >
-          <a href="#services" className="text-text-muted hover:text-accent-gold transition-colors flex flex-col items-center gap-2">
-            <span className="text-xs uppercase tracking-widest font-semibold font-sans">Discover Our Work</span>
-            <ArrowDown className="w-4 h-4 text-accent-gold" />
+          <a href="#services" className="text-text-muted hover:text-accent-gold transition-colors flex flex-col items-center gap-1.5 group">
+            <span className="text-[10px] sm:text-xs uppercase tracking-widest font-mono font-medium group-hover:text-accent-gold transition-colors">Discover My Work</span>
+            <ArrowDown className="w-3.5 h-3.5 text-accent-gold" />
           </a>
         </motion.div>
       </Container>

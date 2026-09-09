@@ -17,8 +17,8 @@ export default function Services() {
       <Container>
         <SectionHeading
           title="Engineered to grow your practice, secured by default."
-          subtitle="Our Capabilities"
-          description="Most freelancers build basic pages and disappear. We deliver high-conversion digital architectures, hardened databases, and automated systems tailored specifically for local clinics and services."
+          subtitle="Capabilities & Services"
+          description="Most freelancers build basic pages and disappear. I deliver high-conversion digital architectures, hardened databases, and automated systems tailored specifically for local clinics and services."
         />
 
         <BentoGrid>
@@ -33,11 +33,18 @@ export default function Services() {
             const cardContent = (
               <div className="h-full flex flex-col justify-between">
                 <div>
-                  <div className="flex items-center justify-between mb-6">
-                    <div className={`p-3 rounded-lg ${
-                      service.accent === 'emerald' ? 'bg-accent-emerald/10 text-accent-emerald' : 'bg-accent-gold/10 text-accent-gold'
-                    }`}>
-                      <IconComponent className="w-6 h-6" />
+                  <div className="flex items-center justify-between mb-5">
+                    <div className="flex items-center gap-3">
+                      <div className={`p-3 rounded-xl border ${
+                        service.accent === 'emerald' 
+                          ? 'bg-accent-emerald/10 text-accent-emerald border-accent-emerald/20 shadow-[0_0_15px_rgba(16,185,129,0.15)]' 
+                          : 'bg-accent-gold/10 text-accent-gold border-accent-gold/20 shadow-[0_0_15px_rgba(201,162,39,0.15)]'
+                      }`}>
+                        <IconComponent className="w-5 h-5 sm:w-6 sm:h-6" />
+                      </div>
+                      <span className="font-mono text-xs text-text-muted/60 font-semibold">
+                        0{index + 1}
+                      </span>
                     </div>
                     {isHighlight && (
                       <Badge variant={service.accent === 'emerald' ? 'emerald' : 'gold'}>
@@ -46,17 +53,17 @@ export default function Services() {
                     )}
                   </div>
 
-                  <h3 className="text-2xl font-bold font-serif text-text-primary mb-2">
+                  <h3 className="text-xl sm:text-2xl font-bold font-display text-text-primary mb-2">
                     {service.title}
                   </h3>
                   
-                  <span className={`block text-xs font-semibold uppercase tracking-wider mb-4 ${
+                  <span className={`block text-[11px] sm:text-xs font-mono font-semibold uppercase tracking-wider mb-3 sm:mb-4 ${
                     service.accent === 'emerald' ? 'text-accent-emerald' : 'text-accent-gold'
                   }`}>
                     {service.subtitle}
                   </span>
 
-                  <p className="text-sm text-text-muted leading-relaxed mb-6 font-sans">
+                  <p className="text-xs sm:text-sm text-text-muted leading-relaxed mb-6 font-sans">
                     {service.description}
                   </p>
                 </div>
@@ -67,7 +74,7 @@ export default function Services() {
                       <span className={`h-1.5 w-1.5 rounded-full shrink-0 ${
                         service.accent === 'emerald' ? 'bg-accent-emerald' : 'bg-accent-gold'
                       }`} />
-                      {feature}
+                      <span>{feature}</span>
                     </li>
                   ))}
                 </ul>

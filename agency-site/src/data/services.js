@@ -3,7 +3,7 @@ export const services = [
     id: "web-dev",
     title: "Custom Web Development",
     subtitle: "Built for speed and conversion",
-    description: "High-performance React and Next.js digital platforms tailored to your business operations. We build custom booking flows, client portals, and responsive layouts that look stunning and load in milliseconds.",
+    description: "High-performance React and Next.js digital platforms tailored to your business operations. I build custom booking flows, client portals, and responsive layouts that look stunning and load in milliseconds.",
     features: [
       "Custom React & Next.js architectures",
       "Sub-second load times & Core Web Vitals optimized",
@@ -19,7 +19,7 @@ export const services = [
     id: "wp-dev",
     title: "WordPress Development",
     subtitle: "Easy management, secure execution",
-    description: "Get the content flexibility of WordPress without the speed and security compromises. We craft custom Gutenberg block templates and secure architectures.",
+    description: "Get the content flexibility of WordPress without the speed and security compromises. I craft custom Gutenberg block templates and secure architectures.",
     features: [
       "Custom Gutenberg & Block editor themes",
       "Clean code (no bloated page builders)",
@@ -50,8 +50,8 @@ export const services = [
   {
     id: "security",
     title: "Site Shield Security Hardening",
-    subtitle: "Our Core Specialty",
-    description: "We harden your digital infrastructure to protect patient databases, customer records, and your agency reputation. From edge-level WAF to database row-level security, we deploy bank-grade standards.",
+    subtitle: "Core Specialty",
+    description: "I harden your digital infrastructure to protect patient databases, customer records, and your business reputation. From edge-level WAF to database row-level security, I deploy bank-grade standards.",
     features: [
       "Content Security Policy & Strict Headers",
       "Supabase Row Level Security (RLS) policies",

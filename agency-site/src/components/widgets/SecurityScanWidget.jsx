@@ -185,12 +185,12 @@ export default function SecurityScanWidget() {
             exit={{ opacity: 0, scale: 0.98 }}
             transition={{ duration: 0.3 }}
           >
-            <GlassCard glowColor="gold" className="relative">
+            <GlassCard glowColor="gold" className="relative p-6 sm:p-8">
               <div className="flex items-center gap-3 mb-4">
-                <Shield className="text-accent-gold w-6 h-6 animate-pulse" />
-                <h3 className="text-xl font-bold font-serif text-text-primary">Instant Web Shield Analyzer</h3>
+                <Shield className="text-accent-gold w-6 h-6 animate-pulse shrink-0" />
+                <h3 className="text-lg sm:text-xl font-bold font-display text-text-primary">Instant Web Shield Analyzer</h3>
               </div>
-              <p className="text-sm text-text-muted mb-6">
+              <p className="text-xs sm:text-sm text-text-muted mb-6 leading-relaxed">
                 Enter your website URL to scan for missing SSL certificates, rate limits, and vulnerable headers.
               </p>
               
@@ -200,9 +200,9 @@ export default function SecurityScanWidget() {
                   value={url}
                   onChange={(e) => setUrl(e.target.value)}
                   placeholder="e.g. myclinicdomain.com"
-                  className="flex-1 px-4 py-3 bg-bg border border-white/10 rounded-lg text-text-primary placeholder:text-text-muted/50 focus:outline-none focus:ring-2 focus:ring-accent-gold/40 focus:border-accent-gold/40 font-sans"
+                  className="flex-1 px-4 py-3 bg-bg border border-white/10 rounded-lg text-text-primary placeholder:text-text-muted/50 focus:outline-none focus:ring-2 focus:ring-accent-gold/40 focus:border-accent-gold/40 text-base md:text-sm font-sans"
                 />
-                <Button type="submit" variant="primary" magnetic={true}>
+                <Button type="submit" variant="primary" magnetic={true} className="w-full sm:w-auto py-3 px-5 text-sm">
                   Scan Website <ArrowRight className="w-4 h-4" />
                 </Button>
               </form>
@@ -312,16 +312,16 @@ export default function SecurityScanWidget() {
                 )}
               </div>
 
-              <div className="flex flex-col sm:flex-row justify-between items-center gap-4 bg-white/5 -mx-6 md:-mx-8 -mb-6 md:-mb-8 p-6 rounded-b-2xl border-t border-white/10">
+              <div className="flex flex-col sm:flex-row justify-between items-center gap-4 bg-white/5 -mx-6 md:-mx-8 -mb-6 md:-mb-8 p-5 sm:p-6 rounded-b-2xl border-t border-white/10">
                 <span className="text-xs text-text-muted text-center sm:text-left">
-                  Need these vulnerabilities patched? We configure bank-grade protections.
+                  Need these vulnerabilities patched? I configure bank-grade protections.
                 </span>
                 
-                <div className="flex gap-2">
-                  <Button variant="secondary" onClick={resetScanner}>
+                <div className="flex flex-col sm:flex-row gap-2.5 w-full sm:w-auto">
+                  <Button variant="secondary" onClick={resetScanner} className="w-full sm:w-auto text-xs py-2.5">
                     <RefreshCw className="w-4 h-4" /> Scan Another
                   </Button>
-                  <Button variant="primary" href="#contact" magnetic={true}>
+                  <Button variant="primary" href="#contact" magnetic={true} className="w-full sm:w-auto text-xs py-2.5">
                     Secure My Site
                   </Button>
                 </div>

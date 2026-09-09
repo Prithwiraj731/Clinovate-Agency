@@ -43,7 +43,7 @@ export default function TermsOfService({ onNavigate }) {
               <ClipboardList className="w-4.5 h-4.5 text-accent-gold" /> 1. Acceptance of Conditions
             </h3>
             <p>
-              By accessing this website, submitting lead requests, or using our visual security analyzers, you agree to comply with these Terms of Service. These terms outline the relationship between ZEROPOINT and our clinic/business partners.
+              By accessing this website, submitting lead requests, or using my visual security analyzers, you agree to comply with these Terms of Service. These terms outline the relationship between ZEROPOINT and my clinic/business partners.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ export default function TermsOfService({ onNavigate }) {
               <Shield className="w-4.5 h-4.5 text-accent-gold" /> 3. Data & Intellectual Property Ownership
             </h3>
             <p>
-              We believe in complete freedom for our clinical partners. Once final payments for a project are made:
+              I believe in complete freedom for my clinical and business partners. Once final payments for a project are made:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-xs">
               <li>
@@ -71,7 +71,7 @@ export default function TermsOfService({ onNavigate }) {
                 You hold direct account control over all AI receptionist configurations (Vapi.ai) and webhook databases (n8n workflows).
               </li>
               <li>
-                We do not enforce licensing lock-ins. We help you move all accounts under your direct billing profiles.
+                I do not enforce licensing lock-ins. I help you move all accounts under your direct billing profiles.
               </li>
             </ul>
           </div>
@@ -81,7 +81,7 @@ export default function TermsOfService({ onNavigate }) {
               <AlertCircle className="w-4.5 h-4.5 text-accent-gold" /> 4. Security Disclaimer
             </h3>
             <p>
-              While our custom **Site Shield** hardening mitigates industry threats (implementing OWASP CSP configs, strict database RLS parameters, and HSTS protection), no system is entirely impenetrable. We are not liable for security breaches arising from:
+              While my custom **Site Shield** hardening mitigates industry threats (implementing OWASP CSP configs, strict database RLS parameters, and HSTS protection), no system is entirely impenetrable. I am not liable for security breaches arising from:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-xs">
               <li>
